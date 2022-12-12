@@ -14,6 +14,8 @@ string[] result = FindTheWords(array);
 
 Console.WriteLine();
 
+Console.WriteLine("Результат: ");
+
 PrintArray(result);
 
 void FillArray(string[] array)
