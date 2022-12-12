@@ -1,0 +1,103 @@
+<mxfile host="65bd71144e">
+    <diagram id="uJ4A3CuB5BnK0v7hde-C" name="Страница 1">
+        <mxGraphModel dx="1263" dy="1170" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#ffffff" math="0" shadow="1">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#FF3333;fontColor=#000000;labelBackgroundColor=#E6E6E6;" edge="1" parent="1" source="69">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="310" y="220" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="69" value="Основной метод &quot;FindTheWords&quot;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#FF3333;fontColor=#000000;labelBackgroundColor=#E6E6E6;" vertex="1" parent="1">
+                    <mxGeometry x="230" y="80" width="160" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="70" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#FF3333;fontColor=#000000;labelBackgroundColor=#E6E6E6;" edge="1" parent="1" source="71" target="84">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="71" value="array&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#FF3333;fontColor=#000000;labelBackgroundColor=#E6E6E6;" vertex="1" parent="1">
+                    <mxGeometry x="217" y="220" width="186" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#FF3333;fontColor=#000000;labelBackgroundColor=#E6E6E6;" edge="1" parent="1" source="73">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="310" y="490" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="73" value="index = 0&lt;br&gt;result array = {array.Length}&lt;br&gt;i = 0" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#FF3333;fontColor=#000000;labelBackgroundColor=#E6E6E6;" vertex="1" parent="1">
+                    <mxGeometry x="217" y="400" width="186" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#FF3333;fontColor=#000000;labelBackgroundColor=#E6E6E6;" edge="1" parent="1" source="77">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="310" y="570" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="75" value="Да" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#FF3333;fontColor=#000000;labelBackgroundColor=#E6E6E6;" edge="1" parent="1" source="77">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="310" y="600" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="76" value="Нет" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#FF3333;fontColor=#000000;labelBackgroundColor=#E6E6E6;" edge="1" parent="1" source="77" target="88">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="410" y="530"/>
+                            <mxPoint x="410" y="530"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="77" value="i &amp;lt; array.Length" style="rhombus;whiteSpace=wrap;html=1;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#FF3333;fontColor=#000000;labelBackgroundColor=#E6E6E6;" vertex="1" parent="1">
+                    <mxGeometry x="245" y="490" width="130" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="78" value="Да" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#FF3333;fontColor=#000000;labelBackgroundColor=#E6E6E6;" edge="1" parent="1" source="80" target="82">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="79" value="Нет" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#FF3333;fontColor=#000000;labelBackgroundColor=#E6E6E6;" edge="1" parent="1" source="80" target="86">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="80" value="Array[i].Length &amp;lt;= 3" style="rhombus;whiteSpace=wrap;html=1;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#FF3333;fontColor=#000000;labelBackgroundColor=#E6E6E6;" vertex="1" parent="1">
+                    <mxGeometry x="247" y="600" width="126" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#FF3333;fontColor=#000000;labelBackgroundColor=#E6E6E6;" edge="1" parent="1" source="82">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="190" y="530" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="82" value="result[index] = array[i]&lt;br&gt;index++&lt;br&gt;i++" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#FF3333;fontColor=#000000;labelBackgroundColor=#E6E6E6;" vertex="1" parent="1">
+                    <mxGeometry x="250" y="730" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="83" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#FF3333;fontColor=#000000;labelBackgroundColor=#E6E6E6;" edge="1" parent="1" source="84" target="73">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="84" value="array = {word, word, word}" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#FF3333;fontColor=#000000;labelBackgroundColor=#E6E6E6;" vertex="1" parent="1">
+                    <mxGeometry x="215" y="300" width="190" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#FF3333;fontColor=#000000;labelBackgroundColor=#E6E6E6;" edge="1" parent="1" source="86">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="240" y="530" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="480" y="860"/>
+                            <mxPoint x="140" y="860"/>
+                            <mxPoint x="140" y="530"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="86" value="i++" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#FF3333;fontColor=#000000;labelBackgroundColor=#E6E6E6;" vertex="1" parent="1">
+                    <mxGeometry x="420" y="610" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="87" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#FF3333;fontColor=#000000;labelBackgroundColor=#E6E6E6;" edge="1" parent="1" source="88" target="89">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="560" y="528"/>
+                            <mxPoint x="560" y="528"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="88" value="result array" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#FF3333;fontColor=#000000;labelBackgroundColor=#E6E6E6;" vertex="1" parent="1">
+                    <mxGeometry x="420" y="500" width="120" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="89" value="Конец" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f5f5f5;gradientColor=#b3b3b3;strokeColor=#FF3333;fontColor=#000000;labelBackgroundColor=#E6E6E6;" vertex="1" parent="1">
+                    <mxGeometry x="590" y="490" width="120" height="75" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
